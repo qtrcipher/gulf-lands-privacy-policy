@@ -7,7 +7,7 @@ The privacy policy for the **Gulf Lands** app (a GCC residential land exchange &
   `https://qtrcipher.github.io/gulf-lands-privacy-policy/`
 - 📧 Contact: **dev.hamam@gmail.com**
 
-_Last updated: June 8, 2026_
+_Last updated: June 10, 2026_
 
 ---
 
@@ -20,7 +20,7 @@ explains what we collect, how we use it, and the choices you have.
 ### 1. Information we collect
 - **Account information.** When you sign in with Apple, we receive a unique Apple identifier and, if you choose to share it, your name. Apple may provide a private relay email address.
 - **Phone number.** We ask for your phone number during sign-up. It is shown to other users only when they choose to contact you about a listing (by phone call or WhatsApp).
-- **Listing information.** Details you enter about your land — type (sale or exchange), country, area/district, size, price (for sale listings), desired areas (for exchange listings), and any description.
+- **Listing information.** Details you enter about your land — type (sale or exchange), country, area/district, size, price (for sale listings), and desired areas (for exchange listings).
 - **Usage and device data.** Through Firebase Analytics we collect app usage events, device model, OS version, app version, and similar technical information.
 - **Advertising data.** We use Google AdMob to display ads. AdMob may use device and advertising identifiers. On iOS we ask for your permission (App Tracking Transparency) before any tracking used for personalized ads; if you decline, you will see non-personalized ads.
 
@@ -58,8 +58,19 @@ You can control ad personalization through your device settings and the App Trac
 ### 10. Third-party links
 The App or the ads shown in it may link to third-party websites we do not control. Their privacy practices are governed by their own policies.
 
-### 11. Changes to this policy
+### 11. Acceptable use, content, and safety
+You are responsible for the listings and information you post. There is **zero tolerance for objectionable, illegal, fraudulent, or abusive content or behavior**. Do not post content that is unlawful, misleading, or offensive, that infringes others' rights, and do not harass or abuse other users.
+
+- **Report.** Any signed-in user can report a listing from within the App (the "…" menu on a listing → **Report listing**). We review reports and aim to act on objectionable content within **24 hours**, including removing the listing and, where warranted, removing the user.
+- **Block.** You can block a user, which hides their listings from you.
+
+We may remove content or accounts that violate these standards. By using the App you agree to them.
+
+### 12. In-app purchases
+The App is free to use, and your first listing is free. Publishing additional listings, and optionally featuring a listing at the top of Browse, are one-time in-app purchases **processed by Apple**. Apple handles all payment — we do **not** receive or store your card or payment details. We record only your purchase entitlements (for example, remaining listing credits) to deliver what you bought.
+
+### 13. Changes to this policy
 We may update this policy from time to time. We will revise the "Last updated" date and, where appropriate, notify you within the App.
 
-### 12. Contact
+### 14. Contact
 For any questions or requests regarding this policy or your data, contact us at **dev.hamam@gmail.com**.
