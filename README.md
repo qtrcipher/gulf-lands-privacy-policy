@@ -2,12 +2,13 @@
 
 The privacy policy for the **Gulf Lands** app (a GCC residential land exchange & sale marketplace).
 
-- 📄 Source: [`index.html`](index.html)
-- 🌐 Once GitHub Pages is enabled for this repo, the public URL will be:
-  `https://qtrcipher.github.io/gulf-lands-privacy-policy/`
-- 📧 Contact: **dev.hamam@gmail.com**
+- 📄 English: [`index.html`](index.html)
+- 📄 العربية: [`ar.html`](ar.html)
+- 🌐 English: `https://qtrcipher.github.io/gulf-lands-privacy-policy/`
+- 🌐 العربية: `https://qtrcipher.github.io/gulf-lands-privacy-policy/ar.html`
+- 📧 Contact: **hamam@gccapps.com**
 
-_Last updated: June 10, 2026_
+_Last updated: July 22, 2026_
 
 ---
 
@@ -73,4 +74,4 @@ The App is free to use, and your first listing is free. Publishing additional li
 We may update this policy from time to time. We will revise the "Last updated" date and, where appropriate, notify you within the App.
 
 ### 14. Contact
-For any questions or requests regarding this policy or your data, contact us at **dev.hamam@gmail.com**.
+For any questions or requests regarding this policy or your data, contact us at **hamam@gccapps.com**.
