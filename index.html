@@ -196,7 +196,7 @@
         يستخدم التطبيق Google Mobile Ads وGoogle User Messaging Platform لعرض الإعلانات وإدارة الموافقة.
         وقد تعالج Google عنوان بروتوكول الإنترنت لتقدير الموقع التقريبي، ومعرّفات الجهاز والإعلانات
         (بما فيها IDFA عند السماح)، وبيانات الإعلانات والتفاعل مع المنتج، وسجلات الأعطال غير المرتبطة
-        بالمستخدم، وبيانات الأداء المرتبطة بالمستخدم، ومعلومات تشخيصية أخرى. تُستخدم هذه البيانات لعرض
+        بالمستخدم، وبيانات الأداء غير المرتبطة بالمستخدم، ومعلومات تشخيصية أخرى غير مرتبطة بالمستخدم. تُستخدم هذه البيانات لعرض
         الإعلانات وقياسها وتحليلها ومنع الاحتيال وفق إعدادات الموافقة وسياسات Google.
       </p>
       <p>
@@ -252,7 +252,8 @@
         إعلان منفرد أو حذف الحساب من داخل التطبيق عبر <strong>الملف الشخصي ← حذف الحساب</strong>؛ ويبدأ
         ذلك حذف بيانات الحساب المرتبطة من Firebase، بما فيها الإعلانات وبيانات التواصل والبلاغات والحظر
         والاستحقاقات المسجلة. قد تحتفظ Apple أو Google ببيانات مستقلة وفق سياساتهما، وقد تبقى نسخ احتياطية
-        محدودة أو سجلات يفرض النظام الاحتفاظ بها للمدة اللازمة فقط.
+        محدودة أو سجلات يفرض النظام الاحتفاظ بها للمدة اللازمة فقط. وقد نحتفظ بمعرّفات معاملات محدودة
+        ومنزوعة الارتباط بالحساب وسجلات الاسترداد بالقدر اللازم لمنع إعادة استخدام عملية شراء مستردة أو الاحتيال.
       </p>
 
       <h2>٧. الأمان</h2>
@@ -342,7 +343,7 @@
         The App uses Google Mobile Ads and Google User Messaging Platform to display ads and manage consent.
         Google may process IP address for coarse location, device and advertising identifiers (including IDFA
         when permitted), advertising data, product interactions, non-user-related crash logs, user-associated
-        performance data, and other diagnostic information. These data support ad delivery, measurement,
+        non-user-related performance data, and other non-user-related diagnostic information. These data support ad delivery, measurement,
         analytics, and fraud prevention according to your consent choices and Google’s policies.
       </p>
       <p>
@@ -400,7 +401,9 @@
         You can delete a listing or delete your account in the App under <strong>Profile → Delete Account</strong>.
         Account deletion starts removal of associated Firebase data, including listings, contact data, reports,
         blocks, and recorded entitlements. Apple or Google may retain data they control under their policies,
-        and limited backups or records required by law may remain only as long as necessary.
+        and limited backups or records required by law may remain only as long as necessary. We may retain
+        limited transaction identifiers detached from the account and refund records as needed to prevent
+        reuse of a refunded purchase or fraud.
       </p>
 
       <h2>7. Security</h2>
