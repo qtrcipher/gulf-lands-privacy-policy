@@ -1,77 +1,10 @@
 # Gulf Lands — Privacy Policy
 
-The privacy policy for the **Gulf Lands** app (a GCC residential land exchange & sale marketplace).
+The public privacy policy for **Gulf Lands**, a GCC residential land sale and exchange marketplace.
 
-- 📄 English: [`index.html`](index.html)
-- 📄 العربية: [`ar.html`](ar.html)
-- 🌐 English: `https://qtrcipher.github.io/gulf-lands-privacy-policy/`
-- 🌐 العربية: `https://qtrcipher.github.io/gulf-lands-privacy-policy/ar.html`
-- 📧 Contact: **hamam@gccapps.com**
+- One self-contained Arabic-first bilingual page: [`index.html`](index.html)
+- Public URL: <https://qtrcipher.github.io/gulf-lands-privacy-policy/>
+- Contact: <hamam@gccapps.com>
+- Last updated: August 7, 2026
 
-_Last updated: July 22, 2026_
-
----
-
-## Privacy Policy
-
-Gulf Lands ("the App", "we", "us") is a marketplace that lets residents of GCC countries list
-residential land for **exchange** or **sale** and contact one another directly. This Privacy Policy
-explains what we collect, how we use it, and the choices you have.
-
-### 1. Information we collect
-- **Account information.** When you sign in with Apple, we receive a unique Apple identifier and, if you choose to share it, your name. Apple may provide a private relay email address.
-- **Phone number.** We ask for your phone number during sign-up. It is shown to other users only when they choose to contact you about a listing (by phone call or WhatsApp).
-- **Listing information.** Details you enter about your land — type (sale or exchange), country, area/district, size, price (for sale listings), and desired areas (for exchange listings).
-- **Usage and device data.** Through Firebase Analytics we collect app usage events, device model, OS version, app version, and similar technical information.
-- **Advertising data.** We use Google AdMob to display ads. AdMob may use device and advertising identifiers. On iOS we ask for your permission (App Tracking Transparency) before any tracking used for personalized ads; if you decline, you will see non-personalized ads.
-
-### 2. How we use information
-- To operate the marketplace — publish your listings and let other users view them.
-- To enable contact — reveal your phone number to a user who taps to contact you about your listing.
-- To improve the App through analytics.
-- To display ads, which keep the App free to use.
-- To maintain safety and comply with applicable law.
-
-### 3. How information is shared
-- **With other users.** Your listing details, and your phone number when a user chooses to contact you.
-- **With service providers.** Google Firebase (authentication, database, analytics) and Google AdMob (advertising), governed by [Google's Privacy Policy](https://policies.google.com/privacy).
-- **For legal reasons.** Where required by law or to protect rights, property, or safety.
-- We **do not sell** your personal data.
-
-### 4. Where your data is stored
-Your data is stored on Google Firebase infrastructure located in **Qatar (Doha region)**. If you use the App from another country, you consent to your data being processed in Qatar. We rely on your consent and appropriate safeguards for any cross-border transfer of personal data.
-
-### 5. Data retention and deletion
-We keep your data while your account is active. You can delete individual listings or your entire account from within the App, which removes your associated data. You may also contact us to request access, correction, or deletion.
-
-### 6. Your rights
-Depending on your country — including GCC data-protection laws such as Saudi Arabia's PDPL — you may have rights to access, correct, delete, or restrict the processing of your personal data, and to withdraw consent. To exercise these rights, contact us below.
-
-### 7. Children
-Gulf Lands is intended for adults who are eligible to own or be granted residential land. It is not directed to children, and we do not knowingly collect personal data from children.
-
-### 8. Security
-We use reasonable technical and organizational measures to protect your data. However, no method of transmission or storage is completely secure, and we cannot guarantee absolute security.
-
-### 9. Advertising and tracking choices
-You can control ad personalization through your device settings and the App Tracking Transparency prompt. To learn how Google uses data from apps that use its services, see [Google's information page](https://policies.google.com/technologies/partner-sites).
-
-### 10. Third-party links
-The App or the ads shown in it may link to third-party websites we do not control. Their privacy practices are governed by their own policies.
-
-### 11. Acceptable use, content, and safety
-You are responsible for the listings and information you post. There is **zero tolerance for objectionable, illegal, fraudulent, or abusive content or behavior**. Do not post content that is unlawful, misleading, or offensive, that infringes others' rights, and do not harass or abuse other users.
-
-- **Report.** Any signed-in user can report a listing from within the App (the "…" menu on a listing → **Report listing**). We review reports and aim to act on objectionable content within **24 hours**, including removing the listing and, where warranted, removing the user.
-- **Block.** You can block a user, which hides their listings from you.
-
-We may remove content or accounts that violate these standards. By using the App you agree to them.
-
-### 12. In-app purchases
-The App is free to use, and your first listing is free. Publishing additional listings, and optionally featuring a listing at the top of Browse, are one-time in-app purchases **processed by Apple**. Apple handles all payment — we do **not** receive or store your card or payment details. We record only your purchase entitlements (for example, remaining listing credits) to deliver what you bought.
-
-### 13. Changes to this policy
-We may update this policy from time to time. We will revise the "Last updated" date and, where appropriate, notify you within the App.
-
-### 14. Contact
-For any questions or requests regarding this policy or your data, contact us at **hamam@gccapps.com**.
+GitHub Pages publishes directly from the `main` branch. This repository intentionally does not use GitHub Actions.

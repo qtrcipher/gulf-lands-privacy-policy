@@ -1,178 +1,456 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy — Gulf Lands</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="سياسة الخصوصية لتطبيق أراضي الخليج باللغة العربية والإنجليزية — Gulf Lands Privacy Policy in Arabic and English.">
+  <title>سياسة الخصوصية — أراضي الخليج | Gulf Lands Privacy Policy</title>
   <style>
-    :root { color-scheme: light dark; }
+    :root {
+      color-scheme: light dark;
+      --page: #f7f7f2;
+      --surface: #ffffff;
+      --text: #18201c;
+      --muted: #5d6862;
+      --accent: #176b45;
+      --border: #d9e0dc;
+      --note: #edf6f1;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.65;
-      max-width: 760px;
-      margin: 0 auto;
-      padding: 2rem 1.25rem 4rem;
-      color: #1a1a1a;
-      background: #fff;
+      margin-block: 0;
+      margin-inline: 0;
+      background: var(--page);
+      color: var(--text);
+      font-family: "SF Arabic", "Noto Sans Arabic", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 1rem;
+      line-height: 1.8;
+      text-align: start;
     }
-    @media (prefers-color-scheme: dark) {
-      body { color: #e6e6e6; background: #111; }
-      a { color: #6db3ff; }
-      hr { border-color: #333; }
+
+    main {
+      inline-size: min(100% - 2rem, 52rem);
+      margin-inline: auto;
+      padding-block: 1rem 4rem;
     }
-    h1 { font-size: 1.9rem; margin-bottom: 0.25rem; }
-    h2 { font-size: 1.25rem; margin-top: 2rem; }
-    .updated { color: #888; font-size: 0.9rem; margin-top: 0; }
-    .language-switch {
+
+    .language-nav {
       display: flex;
-      align-items: center;
-      gap: 0.65rem;
-      margin-bottom: 1.5rem;
-      font-size: 0.95rem;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: center;
+      padding-block: 0.75rem;
     }
-    a { color: #0066cc; }
-    hr { border: none; border-top: 1px solid #e3e3e3; margin: 2.5rem 0; }
-    code { font-size: 0.95em; }
+
+    .language-nav a {
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding-block: 0.35rem;
+      padding-inline: 0.9rem;
+      background: var(--surface);
+      font-weight: 650;
+      text-decoration: none;
+    }
+
+    article {
+      border: 1px solid var(--border);
+      border-radius: 1.25rem;
+      padding-block: clamp(1.25rem, 3vw, 2.5rem);
+      padding-inline: clamp(1.25rem, 4vw, 3rem);
+      background: var(--surface);
+      box-shadow: 0 0.5rem 2rem rgb(18 53 35 / 0.06);
+    }
+
+    article + article { margin-block-start: 2rem; }
+
+    h1 {
+      margin-block: 0 0.25rem;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.25;
+    }
+
+    h2 {
+      margin-block: 2rem 0.5rem;
+      color: var(--accent);
+      font-size: 1.25rem;
+      line-height: 1.45;
+    }
+
+    h3 {
+      margin-block: 1.15rem 0.25rem;
+      font-size: 1.05rem;
+    }
+
+    p { margin-block: 0.65rem; }
+
+    ul {
+      margin-block: 0.5rem 1rem;
+      padding-inline-start: 1.4rem;
+    }
+
+    li + li { margin-block-start: 0.4rem; }
+
+    a {
+      color: var(--accent);
+      text-underline-offset: 0.18em;
+    }
+
+    .eyebrow,
+    .updated,
+    .fine-print { color: var(--muted); }
+
+    .eyebrow {
+      margin-block: 0;
+      font-weight: 700;
+    }
+
+    .updated {
+      margin-block: 0 1.5rem;
+      font-size: 0.92rem;
+    }
+
+    .notice {
+      margin-block: 1rem;
+      border-inline-start: 0.3rem solid var(--accent);
+      border-radius: 0.6rem;
+      padding-block: 0.8rem;
+      padding-inline: 1rem;
+      background: var(--note);
+    }
+
+    .fine-print {
+      border-block-start: 1px solid var(--border);
+      margin-block-start: 2rem;
+      padding-block-start: 1rem;
+      font-size: 0.9rem;
+    }
+
+    [dir="ltr"] {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --page: #0d1210;
+        --surface: #151c18;
+        --text: #ecf1ee;
+        --muted: #aab6af;
+        --accent: #78d6aa;
+        --border: #334039;
+        --note: #193428;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
   </style>
 </head>
 <body>
-  <nav class="language-switch" aria-label="Language">
-    <strong aria-current="page">English</strong>
-    <span aria-hidden="true">·</span>
-    <a href="ar.html" lang="ar" dir="rtl">العربية</a>
-  </nav>
+  <main>
+    <nav class="language-nav" aria-label="اختيار اللغة / Language selection">
+      <a href="#arabic" lang="ar" dir="rtl">العربية</a>
+      <a href="#english" lang="en" dir="ltr">English</a>
+    </nav>
 
-  <h1>Privacy Policy</h1>
-  <p class="updated">Gulf Lands · Last updated: August 6, 2026</p>
+    <article id="arabic" lang="ar" dir="rtl" aria-labelledby="arabic-title">
+      <p class="eyebrow">أراضي الخليج</p>
+      <h1 id="arabic-title">سياسة الخصوصية</h1>
+      <p class="updated">آخر تحديث: ٧ أغسطس ٢٠٢٦</p>
 
-  <p>
-    Gulf Lands (&ldquo;the App&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) is a marketplace that lets
-    residents of GCC countries list residential land for <strong>exchange</strong> or <strong>sale</strong>
-    and contact one another directly. This Privacy Policy explains what we collect, how we use it, and the
-    choices you have.
-  </p>
+      <p>
+        يتيح تطبيق أراضي الخليج («التطبيق» أو «نحن») للمستخدمين عرض الأراضي السكنية للبيع أو المبادلة
+        في دول مجلس التعاون الخليجي، والتواصل بشأن الإعلانات. توضّح هذه السياسة البيانات التي نعالجها،
+        وأسباب معالجتها، والجهات التي قد تتلقاها، والخيارات والحقوق المتاحة لك. يتولى مقدّم التطبيق
+        مسؤولية معالجة بياناته، ويتولى حمام العبدالله طلبات الخصوصية عبر بيانات التواصل الواردة أدناه.
+      </p>
 
-  <h2>1. Information we collect</h2>
-  <ul>
-    <li><strong>Account information.</strong> When you sign in with Apple, we receive a unique Apple identifier and, if you choose to share it, your name. Apple may provide a private relay email address.</li>
-    <li><strong>Phone number.</strong> We ask for your phone number during sign-up. It is shown to other users only when they choose to contact you about a listing (by phone call or WhatsApp).</li>
-    <li><strong>Listing information.</strong> Details you enter about your land — type (sale or exchange), country, area/district, size, price (for sale listings), and desired areas (for exchange listings).</li>
-    <li><strong>Usage and device data.</strong> Through Firebase Analytics we collect app usage events, device model, operating system version, app version, and similar technical information.</li>
-    <li><strong>Crash and diagnostic data.</strong> Firebase Crashlytics collects crash reports, stack traces, device and operating-system details, app version, and related technical state needed to diagnose reliability problems. We do not attach phone numbers, listing contact details, or account identifiers to Crashlytics reports.</li>
-    <li><strong>Advertising data.</strong> We use Google AdMob to display ads. AdMob may use device and advertising identifiers. On iOS we ask for your permission (App Tracking Transparency) before any tracking used for personalized ads; if you decline, you will see non-personalized ads.</li>
-  </ul>
+      <h2>١. البيانات التي نجمعها وأغراض استخدامها</h2>
 
-  <h2>2. How we use information</h2>
-  <ul>
-    <li>To operate the marketplace — publish your listings and let other users view them.</li>
-    <li>To enable contact — reveal your phone number to a user who taps to contact you about your listing.</li>
-    <li>To improve the App through analytics.</li>
-    <li>To diagnose crashes and improve the App&rsquo;s stability.</li>
-    <li>To display ads, which keep the App free to use.</li>
-    <li>To maintain safety and comply with applicable law.</li>
-  </ul>
+      <h3>بيانات الحساب والتواصل</h3>
+      <ul>
+        <li><strong>تسجيل الدخول باستخدام Apple:</strong> معرّف حساب فريد، وقد نتلقى الاسم وعنوان البريد الإلكتروني أو عنوان Apple الخاص لإخفاء البريد إذا اخترت مشاركتهما. نستخدمها لإنشاء الحساب وتسجيل الدخول وإدارة الملف الشخصي.</li>
+        <li><strong>رقم الهاتف:</strong> نخزّنه لتفعيل التواصل بشأن الإعلانات. لا يظهر في بطاقة الإعلان، بل يُجلب عندما يختار مستخدم مسجّل الدخول التواصل مع صاحب الإعلان عبر الهاتف أو واتساب.</li>
+      </ul>
 
-  <h2>3. How information is shared</h2>
-  <ul>
-    <li><strong>With other users.</strong> Your listing details, and your phone number when a user chooses to contact you.</li>
-    <li><strong>With service providers.</strong> Google Firebase (authentication, database, analytics, and crash diagnostics) and Google AdMob (advertising). Their handling of data is governed by <a href="https://policies.google.com/privacy">Google&rsquo;s Privacy Policy</a>.</li>
-    <li><strong>For legal reasons.</strong> Where required by law or to protect rights, property, or safety.</li>
-    <li>We <strong>do not sell</strong> your personal data.</li>
-  </ul>
+      <h3>بيانات الإعلانات والمحتوى والسلامة</h3>
+      <ul>
+        <li><strong>الإعلانات العقارية:</strong> نوع الإعلان، والدولة، والمنطقة أو الحي، والمساحة، والسعر والعملة عند البيع، والمناطق المطلوبة عند المبادلة، وحالة الإعلان، وتواريخ الإنشاء والتحديث، وحالة التمييز المدفوع.</li>
+        <li><strong>البلاغات:</strong> معرّفات المبلّغ والإعلان وصاحب الإعلان، وسبب البلاغ، والملاحظة الاختيارية، ووقت الإرسال. نستخدمها لمراجعة المحتوى ومنع الاحتيال أو الإساءة.</li>
+        <li><strong>الحظر:</strong> معرّف المستخدم المحظور ووقت الحظر، لإخفاء إعلاناته عن المستخدم الذي حظره.</li>
+      </ul>
 
-  <h2>4. Where your data is stored</h2>
-  <p>
-    Your data is stored on Google Firebase infrastructure located in <strong>Qatar (Doha region)</strong>.
-    If you use the App from another country, you consent to your data being processed in Qatar. We rely on your
-    consent and appropriate safeguards for any cross-border transfer of personal data.
-  </p>
+      <h3>المشتريات</h3>
+      <p>
+        تعالج Apple الدفعات داخل التطبيق. لا نستلم بيانات البطاقة أو الحساب البنكي. نعالج معرّف المنتج
+        ومعرّفات المعاملة والمعاملة الأصلية وحالة الاستحقاق ورصيد نشر الإعلانات ومدة تمييز الإعلان،
+        وذلك للتحقق من الشراء وتسليم الميزة ومنع الاسترداد المكرر والتعامل مع الاستردادات.
+      </p>
 
-  <h2>5. Data retention and deletion</h2>
-  <p>
-    We keep your data while your account is active. You can delete individual listings or your entire account
-    from within the App, which removes your associated data. You may also contact us to request access,
-    correction, or deletion of your data.
-  </p>
+      <h3>الإعلانات وبيانات الجهاز والتشخيص</h3>
+      <p>
+        يستخدم التطبيق Google Mobile Ads وGoogle User Messaging Platform لعرض الإعلانات وإدارة الموافقة.
+        وقد تعالج Google عنوان بروتوكول الإنترنت لتقدير الموقع التقريبي، ومعرّفات الجهاز والإعلانات
+        (بما فيها IDFA عند السماح)، وبيانات الإعلانات والتفاعل مع المنتج، وسجلات الأعطال غير المرتبطة
+        بالمستخدم، وبيانات الأداء المرتبطة بالمستخدم، ومعلومات تشخيصية أخرى. تُستخدم هذه البيانات لعرض
+        الإعلانات وقياسها وتحليلها ومنع الاحتيال وفق إعدادات الموافقة وسياسات Google.
+      </p>
+      <p>
+        يستخدم التطبيق Firebase Crashlytics لجمع تقارير الأعطال، ومسارات تتبّع الأخطاء، وإصدار التطبيق
+        والنظام، وطراز الجهاز، والحالة التقنية اللازمة لتشخيص الأعطال وتحسين الثبات. لا يعيّن التطبيق
+        معرّف مستخدم في Crashlytics ولا يرسل إليه رقم الهاتف أو بيانات التواصل في الإعلان.
+      </p>
+      <div class="notice">
+        <strong>Firebase Analytics معطّل في الإصدار الحالي.</strong> لا يعتمد التطبيق على Firebase Analytics
+        لجمع أحداث الاستخدام، حتى لو بقيت استدعاءات تسجيل الأحداث في الشفرة دون تنفيذ عملية جمع عند تعطيل الخدمة.
+      </div>
 
-  <h2>6. Your rights</h2>
-  <p>
-    Depending on your country — including GCC data-protection laws such as Saudi Arabia&rsquo;s PDPL — you may
-    have rights to access, correct, delete, or restrict the processing of your personal data, and to withdraw
-    consent. To exercise these rights, contact us using the details below.
-  </p>
+      <h2>٢. الأسس النظامية للمعالجة</h2>
+      <p>بحسب النظام المعمول به، نستند إلى واحد أو أكثر من الأسس الآتية:</p>
+      <ul>
+        <li>تنفيذ الخدمة التي تطلبها وإدارة حسابك وإعلاناتك ومشترياتك.</li>
+        <li>موافقتك، مثل خيارات الإعلانات وشفافية تتبع التطبيقات، ويمكنك سحبها من إعدادات التطبيق أو الجهاز.</li>
+        <li>مصالحنا المشروعة في حماية المستخدمين، ومنع الاحتيال والإساءة، وتأمين التطبيق وتحسين موثوقيته.</li>
+        <li>الوفاء بالالتزامات النظامية والاستجابة للطلبات القانونية الصحيحة.</li>
+      </ul>
 
-  <h2>7. Children</h2>
-  <p>
-    Gulf Lands is intended for adults who are eligible to own or be granted residential land. It is not directed
-    to children, and we do not knowingly collect personal data from children.
-  </p>
+      <h2>٣. الجهات التي نشارك معها البيانات</h2>
+      <ul>
+        <li><strong>المستخدمون الآخرون:</strong> تظهر تفاصيل الإعلان المنشور، ويُكشف رقم الهاتف عند اختيار مستخدم مسجّل الدخول التواصل بشأن الإعلان.</li>
+        <li><strong>Google Firebase:</strong> المصادقة، وCloud Firestore، وCloud Functions، وApp Check، وCrashlytics. Firebase Analytics معطّل.</li>
+        <li><strong>Apple:</strong> تسجيل الدخول باستخدام Apple، وStoreKit، ومعالجة الدفعات وإشعارات المعاملات.</li>
+        <li><strong>Google Mobile Ads وUMP:</strong> عرض الإعلانات وقياسها، وإدارة الموافقة، ومنع الاحتيال.</li>
+        <li><strong>الهاتف وواتساب:</strong> عندما تبدأ مكالمة أو تفتح واتساب بنفسك، تخضع المعالجة اللاحقة لسياسات مزوّد الخدمة الذي اخترته.</li>
+        <li><strong>الجهات المختصة:</strong> عندما يقتضي النظام ذلك أو لحماية الحقوق والسلامة ومكافحة الاحتيال.</li>
+      </ul>
+      <p>لا نبيع بياناتك الشخصية. قد تُعد بعض عمليات مشاركة معرّفات الإعلانات «تتبّعاً» وفق تعريف Apple، ولا تتم إلا وفق الأذونات والخيارات المطبقة.</p>
 
-  <h2>8. Security</h2>
-  <p>
-    We use reasonable technical and organizational measures to protect your data. However, no method of
-    transmission or storage is completely secure, and we cannot guarantee absolute security.
-  </p>
+      <h2>٤. الإعلانات والتتبّع وخياراتك</h2>
+      <p>
+        يطلب التطبيق موافقة الإعلانات عبر UMP، وعند انطباقها يطلب إذن شفافية تتبع التطبيقات (ATT) قبل
+        إتاحة IDFA للتتبّع عبر التطبيقات والمواقع. إذا رفضت إذن ATT فلن يتمكن التطبيق من إتاحة IDFA
+        لهذا الغرض. ومع ذلك، قد تستمر Google في معالجة بيانات محدودة — مثل عنوان IP وبيانات الجهاز
+        والتفاعل والتشخيص — لعرض الإعلانات وقياسها ومنع الاحتيال بالقدر الذي تسمح به اختياراتك والنظام.
+        يمكنك مراجعة إعدادات الإعلانات في التطبيق وإذن التتبّع في إعدادات iOS.
+      </p>
 
-  <h2>9. Advertising and tracking choices</h2>
-  <p>
-    You can control ad personalization through your device settings and the App Tracking Transparency prompt.
-    To learn how Google uses data from apps that use its services, see
-    <a href="https://policies.google.com/technologies/partner-sites">Google&rsquo;s information page</a>.
-  </p>
+      <h2>٥. التخزين والنقل الدولي</h2>
+      <p>
+        قاعدة Cloud Firestore الأساسية مهيأة في منطقة الدوحة بدولة قطر. وقد تعالج خدمات أخرى، ومنها
+        Firebase Authentication وCrashlytics وGoogle Mobile Ads وخدمات Apple، البيانات في دول أخرى
+        وفق بنيتها العالمية. نستخدم الضمانات التعاقدية والتنظيمية المناسبة حيث يلزم، ولا نزعم أن جميع
+        البيانات تُعالج داخل الدوحة حصراً.
+      </p>
 
-  <h2>10. Third-party links</h2>
-  <p>
-    The App or the ads shown in it may link to third-party websites we do not control. Their privacy practices
-    are governed by their own policies.
-  </p>
+      <h2>٦. الاحتفاظ والحذف</h2>
+      <p>
+        نحتفظ ببيانات الحساب والإعلانات ما دام الحساب نشطاً أو بالقدر اللازم لتقديم الخدمة. يمكنك حذف
+        إعلان منفرد أو حذف الحساب من داخل التطبيق عبر <strong>الملف الشخصي ← حذف الحساب</strong>؛ ويبدأ
+        ذلك حذف بيانات الحساب المرتبطة من Firebase، بما فيها الإعلانات وبيانات التواصل والبلاغات والحظر
+        والاستحقاقات المسجلة. قد تحتفظ Apple أو Google ببيانات مستقلة وفق سياساتهما، وقد تبقى نسخ احتياطية
+        محدودة أو سجلات يفرض النظام الاحتفاظ بها للمدة اللازمة فقط.
+      </p>
 
-  <h2>11. Acceptable use, content, and safety</h2>
-  <p>
-    You are responsible for the listings and information you post. There is
-    <strong>zero tolerance for objectionable, illegal, fraudulent, or abusive content or behavior</strong>.
-    Do not post content that is unlawful, misleading, or offensive, that infringes others&rsquo; rights,
-    and do not harass or abuse other users.
-  </p>
-  <ul>
-    <li><strong>Report.</strong> Any signed-in user can report a listing from within the App
-      (the &ldquo;&hellip;&rdquo; menu on a listing &rarr; <strong>Report listing</strong>). We review reports
-      and aim to act on objectionable content within <strong>24 hours</strong>, including removing the listing
-      and, where warranted, removing the user.</li>
-    <li><strong>Block.</strong> You can block a user, which hides their listings from you.</li>
-  </ul>
-  <p>
-    We may remove content or accounts that violate these standards. By using the App you agree to them.
-  </p>
+      <h2>٧. الأمان</h2>
+      <p>
+        نستخدم وسائل تقنية وتنظيمية معقولة، منها المصادقة وقواعد وصول Firestore وApp Check والتحقق من
+        معاملات StoreKit. لا توجد وسيلة نقل أو تخزين آمنة بصورة مطلقة، ولذلك لا يمكن ضمان الحماية المطلقة.
+      </p>
 
-  <h2>12. In-app purchases</h2>
-  <p>
-    The App is free to use, and your first listing is free. Publishing additional listings, and optionally
-    featuring a listing at the top of Browse, are one-time in-app purchases <strong>processed by Apple</strong>.
-    Apple handles all payment &mdash; we do <strong>not</strong> receive or store your card or payment details. We
-    record only your purchase entitlements (for example, remaining listing credits) to deliver what you bought.
-  </p>
+      <h2>٨. حقوقك</h2>
+      <p>
+        قد يكون لك، بحسب بلدك، حق طلب الوصول إلى بياناتك أو تصحيحها أو الحصول على نسخة قابلة للنقل منها
+        أو حذفها أو تقييد معالجتها أو الاعتراض عليها، وسحب الموافقة وتقديم شكوى إلى الجهة المختصة. يمكنك
+        تعديل بعض البيانات وحذف الحساب من التطبيق. لطلب الوصول أو التصدير أو أي حق آخر، راسلنا على
+        <a href="mailto:hamam@gccapps.com">hamam@gccapps.com</a>. قد نطلب التحقق من هويتك قبل تنفيذ الطلب.
+      </p>
 
-  <h2>13. Changes to this policy</h2>
-  <p>
-    We may update this policy from time to time. We will revise the &ldquo;Last updated&rdquo; date above and,
-    where appropriate, notify you within the App.
-  </p>
+      <h2>٩. الأطفال</h2>
+      <p>
+        التطبيق موجّه إلى البالغين المهتمين بالأراضي السكنية، وليس موجّهاً إلى الأطفال دون ١٣ عاماً،
+        ولا نجمع عن علم بيانات شخصية من طفل. إذا اعتقد ولي أمر أن طفلاً زوّدنا ببياناته، فيُرجى التواصل
+        معنا لحذفها.
+      </p>
 
-  <h2>14. Contact</h2>
-  <p>
-    For any questions or requests regarding this policy or your data, contact us at
-    <a href="mailto:hamam@gccapps.com">hamam@gccapps.com</a>.
-  </p>
+      <h2>١٠. الروابط والخدمات الخارجية</h2>
+      <p>
+        قد تفتح الإعلانات أو إجراءات التواصل خدمات خارجية لا نديرها. راجع
+        <a href="https://policies.google.com/privacy">سياسة خصوصية Google</a>، و
+        <a href="https://policies.google.com/technologies/partner-sites">كيفية استخدام Google للبيانات من التطبيقات الشريكة</a>، و
+        <a href="https://www.apple.com/legal/privacy/">سياسة خصوصية Apple</a>.
+      </p>
 
-  <h2 id="support">15. Support</h2>
-  <p>
-    Need help with Gulf Lands &mdash; a question, an issue with a listing, or a request to delete your
-    account or data? Email <a href="mailto:hamam@gccapps.com">hamam@gccapps.com</a> and we&rsquo;ll
-    respond. You can also delete your account at any time in the app under
-    <strong>Profile &rarr; Delete Account</strong>.
-  </p>
+      <h2>١١. التغييرات على هذه السياسة</h2>
+      <p>
+        قد نحدّث هذه السياسة عند تغير التطبيق أو مقدّمي الخدمات أو المتطلبات النظامية. سنغيّر تاريخ
+        «آخر تحديث»، وسنقدّم إشعاراً إضافياً داخل التطبيق عندما يكون التغيير جوهرياً ومتى كان ذلك مناسباً.
+      </p>
 
-  <hr />
-  <p class="updated">© 2026 Gulf Lands. All rights reserved.</p>
+      <h2>١٢. التواصل</h2>
+      <p>
+        للاستفسارات وطلبات الوصول أو التصحيح أو التصدير أو الحذف، تواصل مع حمام العبدالله عبر
+        <a href="mailto:hamam@gccapps.com">hamam@gccapps.com</a>.
+      </p>
+
+      <p class="fine-print">
+        هذه السياسة بيان عام لممارسات الخصوصية في التطبيق وليست استشارة قانونية. قد تختلف حقوقك بحسب
+        النظام المعمول به في بلدك.
+      </p>
+    </article>
+
+    <article id="english" lang="en" dir="ltr" aria-labelledby="english-title">
+      <p class="eyebrow">Gulf Lands</p>
+      <h1 id="english-title">Privacy Policy</h1>
+      <p class="updated">Last updated: August 7, 2026</p>
+
+      <p>
+        Gulf Lands (the “App,” “we,” or “us”) lets people list residential land for sale or exchange
+        in Gulf Cooperation Council countries and contact one another about listings. This policy explains
+        the data we process, why we process it, who may receive it, and your choices and rights. The App’s
+        provider is responsible for the data described here, and Hamam Alabdulla handles privacy requests
+        using the contact details below.
+      </p>
+
+      <h2>1. Data we collect and why</h2>
+
+      <h3>Account and contact data</h3>
+      <ul>
+        <li><strong>Sign in with Apple:</strong> a unique account identifier and, if you choose to share them, your name and email address or Apple private relay address. We use these to create your account, sign you in, and manage your profile.</li>
+        <li><strong>Phone number:</strong> stored to enable listing enquiries. It is not displayed on the listing card; it is retrieved when a signed-in user chooses to contact the listing owner by phone or WhatsApp.</li>
+      </ul>
+
+      <h3>Listing, content, and safety data</h3>
+      <ul>
+        <li><strong>Land listings:</strong> listing type, country, area or district, size, sale price and currency, desired exchange areas, listing status, creation and update times, and paid feature status.</li>
+        <li><strong>Reports:</strong> reporter, listing, and owner identifiers; the report reason; an optional note; and submission time. We use these to review content and prevent fraud or abuse.</li>
+        <li><strong>Blocks:</strong> the blocked user identifier and block time, used to hide that user’s listings from the person who blocked them.</li>
+      </ul>
+
+      <h3>Purchases</h3>
+      <p>
+        Apple processes in-app payments. We do not receive card or bank details. We process the product ID,
+        transaction and original transaction IDs, entitlement status, listing credit balance, and listing
+        feature duration to verify purchases, deliver features, prevent duplicate redemption, and handle refunds.
+      </p>
+
+      <h3>Advertising, device, and diagnostic data</h3>
+      <p>
+        The App uses Google Mobile Ads and Google User Messaging Platform to display ads and manage consent.
+        Google may process IP address for coarse location, device and advertising identifiers (including IDFA
+        when permitted), advertising data, product interactions, non-user-related crash logs, user-associated
+        performance data, and other diagnostic information. These data support ad delivery, measurement,
+        analytics, and fraud prevention according to your consent choices and Google’s policies.
+      </p>
+      <p>
+        The App uses Firebase Crashlytics to collect crash reports, stack traces, app and operating-system
+        versions, device model, and technical state needed to diagnose crashes and improve stability. The App
+        does not set a Crashlytics user ID or send phone numbers or listing contact details to Crashlytics.
+      </p>
+      <div class="notice">
+        <strong>Firebase Analytics is disabled in the current release.</strong> The App does not rely on
+        Firebase Analytics to collect usage events, even though event-logging calls may remain in code and do
+        not result in collection while the service is disabled.
+      </div>
+
+      <h2>2. Legal bases for processing</h2>
+      <p>Depending on applicable law, we rely on one or more of these bases:</p>
+      <ul>
+        <li>Performing the service you request and managing your account, listings, and purchases.</li>
+        <li>Your consent, including ad-consent and App Tracking Transparency choices, which you may withdraw through App or device settings.</li>
+        <li>Our legitimate interests in protecting users, preventing fraud and abuse, securing the App, and improving reliability.</li>
+        <li>Meeting legal obligations and responding to valid legal requests.</li>
+      </ul>
+
+      <h2>3. Who receives data</h2>
+      <ul>
+        <li><strong>Other users:</strong> published listing details, plus the phone number when a signed-in user chooses to contact the owner about that listing.</li>
+        <li><strong>Google Firebase:</strong> Authentication, Cloud Firestore, Cloud Functions, App Check, and Crashlytics. Firebase Analytics is disabled.</li>
+        <li><strong>Apple:</strong> Sign in with Apple, StoreKit, payment processing, and transaction notifications.</li>
+        <li><strong>Google Mobile Ads and UMP:</strong> ad delivery and measurement, consent management, and fraud prevention.</li>
+        <li><strong>Phone and WhatsApp providers:</strong> when you initiate a call or open WhatsApp, further processing is governed by the provider you chose.</li>
+        <li><strong>Authorities:</strong> where required by law or reasonably necessary to protect rights, safety, or prevent fraud.</li>
+      </ul>
+      <p>We do not sell personal data. Some sharing of advertising identifiers may qualify as “tracking” under Apple’s definition and occurs only under the applicable permissions and choices.</p>
+
+      <h2>4. Ads, tracking, and your choices</h2>
+      <p>
+        The App requests ad consent through UMP and, where applicable, asks for App Tracking Transparency
+        (ATT) permission before making the IDFA available for tracking across apps and websites. If you deny
+        ATT, the App cannot make the IDFA available for that purpose. Google may still process limited data,
+        such as IP address, device, interaction, and diagnostic information, to deliver and measure ads and
+        prevent fraud as permitted by your choices and applicable law. You can review ad choices in the App
+        and tracking permission in iOS Settings.
+      </p>
+
+      <h2>5. Storage and international transfers</h2>
+      <p>
+        The primary Cloud Firestore database is configured in Doha, Qatar. Other services—including Firebase
+        Authentication, Crashlytics, Google Mobile Ads, and Apple services—may process data in other countries
+        through their global infrastructure. We use appropriate contractual and organizational safeguards where
+        required. We do not claim that all data is processed only in Doha.
+      </p>
+
+      <h2>6. Retention and deletion</h2>
+      <p>
+        We retain account and listing data while the account is active or as needed to provide the service.
+        You can delete a listing or delete your account in the App under <strong>Profile → Delete Account</strong>.
+        Account deletion starts removal of associated Firebase data, including listings, contact data, reports,
+        blocks, and recorded entitlements. Apple or Google may retain data they control under their policies,
+        and limited backups or records required by law may remain only as long as necessary.
+      </p>
+
+      <h2>7. Security</h2>
+      <p>
+        We use reasonable technical and organizational safeguards, including authentication, Firestore access
+        rules, App Check, and StoreKit transaction verification. No transmission or storage method is completely
+        secure, so absolute security cannot be guaranteed.
+      </p>
+
+      <h2>8. Your rights</h2>
+      <p>
+        Depending on your country, you may have rights to access, correct, receive a portable copy of, delete,
+        restrict, or object to processing of your personal data; withdraw consent; and complain to a competent
+        authority. You can edit some data and delete your account in the App. For access, export, or another
+        request, email <a href="mailto:hamam@gccapps.com">hamam@gccapps.com</a>. We may verify your identity
+        before fulfilling a request.
+      </p>
+
+      <h2>9. Children</h2>
+      <p>
+        The App is intended for adults interested in residential land and is not directed to children under 13.
+        We do not knowingly collect personal data from children. A parent or guardian who believes a child has
+        provided data may contact us to request deletion.
+      </p>
+
+      <h2>10. External links and services</h2>
+      <p>
+        Ads or contact actions may open services we do not control. Review
+        <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a>,
+        <a href="https://policies.google.com/technologies/partner-sites">Google’s partner data explanation</a>, and
+        <a href="https://www.apple.com/legal/privacy/">Apple’s Privacy Policy</a>.
+      </p>
+
+      <h2>11. Changes to this policy</h2>
+      <p>
+        We may update this policy when the App, service providers, or legal requirements change. We will update
+        the “Last updated” date and provide an additional in-App notice for material changes when appropriate.
+      </p>
+
+      <h2>12. Contact</h2>
+      <p>
+        For questions and access, correction, export, or deletion requests, contact Hamam Alabdulla at
+        <a href="mailto:hamam@gccapps.com">hamam@gccapps.com</a>.
+      </p>
+
+      <p class="fine-print">
+        This policy is a general statement of the App’s privacy practices and is not legal advice. Your rights
+        may vary under the laws that apply in your country.
+      </p>
+    </article>
+  </main>
 </body>
 </html>
